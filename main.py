@@ -1,6 +1,6 @@
 from roman import *
 
-roman1 = [str(vvodR) for vvodR in input('Введите римское число:').split()]
+roman1 = [str(vvodR) for vvodR in input('Введите римское число:').upper().split()]
 for i in roman1:
     print(i, '->' ,roman_to_int(i))
 
